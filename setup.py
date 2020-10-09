@@ -15,7 +15,6 @@ setuptools.setup(
     long_description = readme(),
     long_description_content_type="text/markdown",
     url='https://github.com/ajayarunachalam/RegressorMetricGraphPlot',
-    download_url='https://github.com/ajayarunachalam/RegressorMetricGraphPlot/tarball/master',
     install_requires=[
           'matplotlib', 'numpy', 'sklearn', 'pandas', 'scipy',
 
