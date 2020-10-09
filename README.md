@@ -6,7 +6,7 @@ Python implementations for comparing different Regression Models and Plotting wi
 The purpose of this package is to help users plot the graph at ease with different widely used metrics for regression model evaluation for comparing them at a glance 
 
 <p align="center">
-    <img src="https://github.com/ajayarunachalam/RegressorMetricGraphPlot/blob/master/regressormetricgraphplot/example_plot.png" width="640"\>
+    <img src="https://github.com/ajayarunachalam/RegressorMetricGraphPlot/blob/main/regressormetricgraphplot/example_plot.png" width="640"\>
 </p>
 <p align="center">
     Figure: Model evaluation plot with widely used metrics 
@@ -53,7 +53,9 @@ pip install requirements.txt
 
 
 ## Examples
-Navigate to the demo example in a form of iPython notebooks: -- [here](https://github.com/ajayarunachalam/RegressorMetricGraphPlot/blob/master/regressionmetricplot/demo.ipynb)
+Navigate to the demo example in a form of iPython notebooks: -- [here](https://github.com/ajayarunachalam/RegressorMetricGraphPlot/blob/main/regressormetricgraphplot/demo.ipynb)
+
+
 ### Demo
      * demo.ipynb 
 
