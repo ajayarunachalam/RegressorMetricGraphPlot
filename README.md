@@ -45,7 +45,7 @@ If you installed your Python with Anacoda you can run the following commands to 
 git clone https://github.com/ajayarunachalam/RegressorMetricGraphPlot.git
 cd RegressorMetricGraphPlot
 # Create new conda environment with Python 3.6
-conda create --new your-env-name python=3.6
+conda create --name your-env-name python=3.6
 # Activate the environment
 conda activate your-env-name
 # Install conda dependencies
