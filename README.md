@@ -33,7 +33,7 @@ The purpose of this package is to help users plot the graph at ease with differe
     !git clone https://github.com/ajayarunachalam/RegressorMetricGraphPlot.git
     cd RegressorMetricGraphPlot/
 
-    Just replace the line 'from CompareModels import *' with 'from regressioncomparemetricplot import CompareModels' 
+    Just replace the line 'from CompareModels import *' with 'from regressormetricgraphplot import CompareModels' 
 Follow the rest as demonstrated in the demo example [here] -- (https://github.com/ajayarunachalam/RegressorMetricGraphPlot/blob/main/regressormetricgraphplot/demo.ipynb) 
 
 ## Installation with Anaconda
