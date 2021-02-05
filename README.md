@@ -30,7 +30,7 @@ The purpose of this package is to help users plot the graph at ease with differe
     $ python setup.py install
 
 ## Notebook
-    !pip install regressormetricgraphplot & import as ```from regressormetricgraphplot import *```
+    !pip install regressormetricgraphplot & import as 'from regressormetricgraphplot import *'
 
          OR
 
