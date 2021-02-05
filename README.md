@@ -30,10 +30,14 @@ The purpose of this package is to help users plot the graph at ease with differe
     $ python setup.py install
 
 ## Notebook
+    !pip install regressormetricgraphplot & import as ```from regressormetricgraphplot import *```
+
+         OR
+
     !git clone https://github.com/ajayarunachalam/RegressorMetricGraphPlot.git
     cd RegressorMetricGraphPlot/
 
-    Just replace the line 'from CompareModels import *' with 'from regressormetricgraphplot import CompareModels' 
+    Just replace the line 'from CompareModels import *' with 'from regressioncomparemetricplot import CompareModels' 
 Follow the rest as demonstrated in the demo example [here] -- (https://github.com/ajayarunachalam/RegressorMetricGraphPlot/blob/main/regressormetricgraphplot/demo.ipynb) 
 
 ## Installation with Anaconda
@@ -45,7 +49,7 @@ If you installed your Python with Anacoda you can run the following commands to 
 git clone https://github.com/ajayarunachalam/RegressorMetricGraphPlot.git
 cd RegressorMetricGraphPlot
 # Create new conda environment with Python 3.6
-conda create --name your-env-name python=3.6
+conda create --new your-env-name python=3.6
 # Activate the environment
 conda activate your-env-name
 # Install conda dependencies
