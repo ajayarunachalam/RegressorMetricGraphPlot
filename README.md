@@ -12,6 +12,49 @@ The purpose of this package is to help users plot the graph at ease with differe
     Figure: Model evaluation plot with widely used metrics 
 </p>
 
+## Illustration Example
+
+Let's load a simple dataset, and make a train & test set :
+
+.. code:: python
+
+from sklearn.datasets import make_regression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from regressormetricgraphplot import *
+%matplotlib inline
+
+X, y = make_regression(n_samples=1000, n_features=10, n_informative=7, n_targets=1, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=10)
+
+Train the regressor and predict on test set :
+
+.. code:: python
+
+lr = LinearRegression(n_jobs=-1)
+lr.fit(X_train, y_train)
+y_pred = lr.predict(X_test)
+
+We can now use ``R2AndRMSE`` to compute & output R-squared, and Root Mean Square Error.
+
+.. code:: python
+
+CompareModels.R2AndRMSE(y_test=y_test, y_pred=y_pred)
+
+Make object of the class ``CompareModels``
+
+.. code:: python
+
+plot = CompareModels()
+
+We can now use ``add`` &  ``show`` method to add the built model & plot the graph at ease with all the evaluated metrics.
+
+.. code:: python
+
+plot.add(model_name='Linear Regression', y_test=y_test, y_pred=y_pred)
+plot.show(figsize=(10, 5))
+
+.. image:: regressormetricgraphplot/LR_Metric_PLOT.png
 
 ## Table of Contents
 - [Compare Regression Model Metrics Plot](#regressormetricgraphplot)
