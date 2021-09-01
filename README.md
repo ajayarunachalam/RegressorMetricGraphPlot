@@ -1,6 +1,9 @@
 #  Common Evaluation metrics graph plot for Regression 
 
 ## Description
+
+PyPI: https://pypi.org/project/regressormetricgraphplot/
+
 Python implementations for comparing different Regression Models and Plotting with their most common evaluation metrics.
 
 The purpose of this package is to help users plot the graph at ease with different widely used metrics for regression model evaluation for comparing them at a glance 
