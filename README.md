@@ -1,4 +1,4 @@
-#  Common Evaluation metrics graph plot for Regression 
+#  Common Evaluation metrics graph plot for Regression Problem
 
 ## Description
 
